@@ -8,7 +8,6 @@ import pickle
 from sklearn.svm import SVC
 model=pickle.load(open('./svcapk.sav','rb'),buffers=None)
 # linear programming
-import pulp
 from pulp import LpMaximize, LpProblem, LpStatus, lpSum, LpVariable
 
 def main():
