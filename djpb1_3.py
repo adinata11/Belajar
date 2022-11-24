@@ -5,7 +5,6 @@ import plotly_express as px
 from PIL import Image
 import pickle
 # load model 
-import joblib
 from sklearn.svm import SVC
 model=pickle.load(open('./svcapk.sav','rb'),buffers=None)
 # linear programming
