@@ -1,3 +1,4 @@
 streamlit
 plotly_express
 orange3
+pyqt5-tools
