@@ -4,7 +4,6 @@ import numpy as np
 import plotly_express as px
 from PIL import Image
 import pickle
-import Orange
 # load model 
 import joblib
 from sklearn.svm import SVC
